@@ -1,20 +1,29 @@
+body{
+    background: url(../images/outParticles_Sample.bmp) no-repeat center center;
+    background-size: cover;
+
+}
 #centralImage{
     width: 30%;
     height: 30%;
 
 }
-.intro-header {
+.intro {
 	
 	width:100%;
 	height:100%;
-    padding-top: 10%; 
-    padding-bottom: 5%;
+    margin-top: 10%; 
+    margin-bottom: 10%;
     
-    margin: 0px;
+   
     text-align: center;
     color: #f8f8f8;
-    background: url(../images/outParticles_Sample.bmp) no-repeat center center;
-    background-size: cover;
+   
+    
+}
+
+.intro-header { 
+    margin-bottom: 15%;
     
 }
 .defaultSpacingRemoval{
@@ -101,7 +110,7 @@
 }
 
 .textHeader{
-    font-size:10px;
+    font-size:14px;
 }
 
 
