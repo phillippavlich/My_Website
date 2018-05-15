@@ -1,14 +1,19 @@
+#centralImage{
+    width: 30%;
+    height: 30%;
+
+}
 .intro-header {
 	
 	width:100%;
 	height:100%;
-    padding-top: 450px; 
-    padding-bottom: 450px;
+    padding-top: 10%; 
+    padding-bottom: 5%;
     
     margin: 0px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../images/me2.jpg) no-repeat center center;
+    background: url(../images/outParticles_Sample.bmp) no-repeat center center;
     background-size: cover;
     
 }
@@ -16,39 +21,15 @@
 	margin: 0px;
 	padding: 0px;
 }
-.menuoptions{
-	
-	text-align: center;
-
-	width: 20%;
-	height: 20%;
-	border-style:ridge;
-	border-radius: 5px;
-	background-color: #99D3DF;
-	border-color: #CDCDCD;
-	position: relative;
-	left: 10%;
-	margin: 10px;
-	
-
-}
-
-
-
-
-
-
-
-
-
 
 :root {
     --bg: #3C465C;
     --primary: #78FFCD;
     --solid: #fff;
     --btn-w: 10em;
-    --dot-w: calc(var(--btn-w)*.2);
-    --tr-X: calc(var(--btn-w) - var(--btn-w)*.2);
+    /*These next two adjoust the left and then the right of the transition*/
+    --dot-w: calc(var(--btn-w)*0.1);
+    --tr-X: calc(var(--btn-w) - var(--btn-w)*.25);
 }
 * {box-sizing: border-box;}
 *:before, *:after {box-sizing: border-box;}
@@ -64,7 +45,7 @@
     border-radius: 5em;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.1em;
     line-height: 2em;
     cursor: pointer;    
 }
@@ -103,36 +84,25 @@
     80% {transform: translateX(0) rotate(180deg);}
     100% {transform: translateX(0) rotate(360deg);}
 }
-.pos1{
-	left: 10%;
-	top: 10%;
-}
-.pos2{
-	left: 10%;
-	top: 20%;
-}
-.pos3{
-	position: absolute;
-	left:50%;
-	top: 50%;
-	
-	
-}
-.contain3{
-	position: absolute;
-	left:35%;
-	top: 15%;
-}
-.pos4{
-	right: 10%;
-	top: 10%;
-}
-.pos5{
-	right: 10%;
-	top: 20%;
-}
+
+
+
 .linkstyleremove{
 	text-decoration: none;
 	color:#78FFCD;
 }
+
+@media only screen and (max-width: 200px) {
+    .dot{
+
+
+    }
+    
+}
+
+.textHeader{
+    font-size:10px;
+}
+
+
 
