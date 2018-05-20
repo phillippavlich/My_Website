@@ -4,14 +4,6 @@
 	padding: 0px;
 }
 
-.picabout{
-	width: 350px;
-	height:400px;
-	
-	margin: 2% 10% 2% 1%;
-		
-}
-
 .menuoptions{
 	list-style-type: none; 
 	display:inline-block;
@@ -50,11 +42,6 @@ h2{
 	
 }
 
-h3{
-	margin: 5% 5% 0% 5%;
-
-}
-
 .endTitle{
 	width: 100%;
 	height: 15%;
@@ -70,6 +57,19 @@ h3{
 	*/
 }
 
+
+.changecolor{
+	background-color:red;
+}
+
+.circle {
+	width: 10px;
+	height: 20px;
+	background-color: #DAF24E;
+	border: 1px solid black;
+	border-radius: 100%;
+}
+
 ul li a:hover {
 	/*background-color: #CDCDCD;*/ 
 	color: #333333;
@@ -82,56 +82,120 @@ ul li a:hover {
 	padding:0% 2% 0% 5%;
 }
 
-.clear{
-	padding: 0%;
-	margin: 0%;
-	
-}
+
 #clearTitle{
 	margin:20px 0px 10px 0px;
 	font-weight:700;
 	
 }
 
-#pit{
-	float: right;
-	margin: 2%;
-	width:20%;
-	height: 20%;
-	
+.boldtext{
+	font-weight:bold;
 }
+.movefromleft{
+	margin-left:2%;
+	margin-top: 10%;
+}
+.movefromright{
+	margin-right:2%;
+}
+.programImage{
+	margin:1%;
+	width:10%;
+	height:10%;
+}
+
 .clearboth{
 	clear: both;
 	float: right;
 }
-#macphoto{
-	width:20%;
-	height:10%;
-	margin-left:40%;
-	margin-top:2%;
-} 
 
-@media only screen and (min-width: 661px) and (max-width: 915px) {
-   	.picabout{
-		width: 300px;
-		height:350px;
+.clearLeft{
+	clear: left;
+}
+#macphoto{
+	width:40%;
+	height:16%;
+	margin: 2% 30%;
 	
-		margin: 2% 2% 2% 1%;
+
+} 
+#MacInnerMap{
+	margin-top:2%;
+	float: right;
+	width: 600px;
+	height: 450px;
+
+}
+#MacMapping{
+	margin-right:5%;
+	margin-top:2%;
+	float: right;
+	width: 600px;
+	height: 800px;
+
+}
+
+.aligntext{
+	text-align:center;
+}
+#resumeBox{
+	float: left;
+	border: 5px solid #99D3DF;
+	border-radius: 2%;
+	margin:2% 0% 0% 2%;
+	text-align: center;
+	padding: 10px;
+
+}
+
+#resumeButton{
+	color: white;
+	background-color: #9999ff;
+	padding: 2px;
+	border: 1px solid #CDCDCD;
+}
+#resumeButton:hover{
 	
-	
+	background-color: #0000cc;
+}
+
+
+@media only screen and (min-width: 725px) and (max-width: 1050px) {
+	#MacInnerMap{
+		margin-top:2%;
+		float: right;
+		width: 400px;
+		height: 350px;
+
 	}
+	#MacMapping{
+		margin-right:5%;
+		margin-top:2%;
+		float: right;
+		width: 400px;
+		height: 600px;
+
+	}   	
   
 }
 
-@media only screen and (min-width: 531px) and (max-width: 660px) {
-   	.picabout{
+@media only screen and (min-width: 531px) and (max-width: 725px) {
+   	#MacInnerMap{
+		margin-top:2%;
+		float: right;
 		width: 250px;
-		height:250px;
-	
-		margin: 2% 0% 2% 1%;
-	
-	
+		height: 250px;
+
 	}
+	#MacMapping{
+		margin-right:2%;
+		margin-top:2%;
+		float: right;
+		width: 250px;
+		height: 400px;
+
+	}  
     
 }
 
@@ -181,4 +245,3 @@ ul li a:hover {
 		clear: left;
 	}
 }
-
