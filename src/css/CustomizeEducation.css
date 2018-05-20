@@ -120,11 +120,25 @@ ul li a:hover {
 	
 
 } 
+
+#macphoto2{
+	width:40%;
+	height:16%;
+	margin: 2% 30%;
+	display: none;
+	
+
+} 
 #MacInnerMap{
 	margin-top:2%;
 	float: right;
 	width: 600px;
 	height: 450px;
+
+}
+#MacInnerMap2{
+	
+	display: none;
 
 }
 #MacMapping{
@@ -180,7 +194,7 @@ ul li a:hover {
   
 }
 
-@media only screen and (min-width: 531px) and (max-width: 725px) {
+@media only screen and (min-width: 540px) and (max-width: 725px) {
    	#MacInnerMap{
 		margin-top:2%;
 		float: right;
@@ -199,49 +213,62 @@ ul li a:hover {
     
 }
 
-@media only screen and (min-width: 446px) and (max-width: 531px) {
-   	.picabout{
-   		float: center;
-		
-		width: 70%;
-		height:70%;
-		margin: 2% 15% 2% 15%;
-	
-	
+@media only screen and (min-width: 100px) and (max-width: 540px) {
+   	#resumeBox{
+   		float: right;
+   	}
+	#MacInnerMap{
+		margin-top:2%;
+		float: right;
+		width: 250px;
+		height: 250px;
+
 	}
-    .firstPara{
+	#MacMapping{
+		margin-right:2%;
+		margin-top:2%;
+		float: right;
+		width: 250px;
+		height: 400px;
 		clear: both;
+		display: none;
+	} 
+
+	#macphoto2{
+	width:40%;
+	height:16%;
+	margin: 2% 30%;
+	display: inline;
 	
+
+	} 
+	#MacInnerMap2{
+		margin-top:2%;
+		float: right;
+		width: 250px;
+		height: 250px;
+		display: inline;
+
 	}
-	.NextLine{
-		clear: left;
-	}
+	#MacMapping2{
+		margin-right:2%;
+		margin-top:2%;
+		float: center;
+		width: 250px;
+		height: 400px;
+		clear: both;
+		display: inline;
+		
+	}   
+    
 }
 
-@media only screen and (max-width: 445px) {
-   	.picabout{
-   		float: center;
-		width: 96%;
-		height:80%;
-	
-		margin: 2% 2% 2% 2%;
-	
-	
-	}
-    .firstPara{
-		clear: both;
-	
-	}
-	.NextLine{
-		clear: left;
-	}
-}
-@media only screen and (max-width: 230px) {
-    .AllPara{
-		clear: both;
-	
-	}
-	.NextLine{
-		clear: left;
-	}
+@media only screen and (max-width: 300px) {
+    .movefromleft{
+    	clear: both;
+    }
+    #resumeBox{
+    	float: left;
+    	width: 120px;
+    }
 }
