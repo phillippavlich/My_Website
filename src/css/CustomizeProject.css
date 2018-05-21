@@ -4,38 +4,6 @@
 	padding: 0px;
 }
 
-
-#test{
-	width: 304px;
-	height: 228px;
-}
-.picabout{
-	width: 350px;
-	height:400px;
-	
-	margin: 2% 10% 2% 1%;
-	
-	
-}
-
-#ThanksImage{
-	width: 30%;
-	height:20%;
-	
-	margin-left: 35%;
-
-	clear: both;
-	
-	
-}
-
-.testpic{
-	border: 1px solid yellow;
-	z-index:-1;
-	width: 20px;
-	height: 20px;
-}
-
 .menuoptions{
 	list-style-type: none; 
 	display:inline-block;
@@ -90,18 +58,6 @@ h2{
 }
 
 
-.changecolor{
-	background-color:red;
-}
-
-.circle {
-	width: 10px;
-	height: 20px;
-	background-color: #DAF24E;
-	border: 1px solid black;
-	border-radius: 100%;
-}
-
 ul li a:hover {
 	/*background-color: #CDCDCD;*/ 
 	color: #333333;
@@ -115,8 +71,7 @@ ul li a:hover {
 }
 
 .clear{
-	padding: 0%;
-	margin: 0%;
+	clear: both;
 	
 }
 #clearTitle{
@@ -134,31 +89,37 @@ ul li a:hover {
 .movefromright{
 	margin-right:2%;
 }
-.programImage{
-	margin:1%;
-	width:10%;
-	height:10%;
-}
-#pit{
-	width:20%;
-	height: 20%;
-	
-}
+
+
 .clearboth{
 	clear: both;
 	float: right;
 }
-#macphoto{
-	width:20%;
-	height:10%;
-	margin-left:40%;
-	margin-top:2%;
-} 
-.aligntext{
-	text-align:center;
-}
 
-.firstPara{
-
+.centerText{
+	text-align: center;
+	float: center;
 
 }
+#viewSimulation {
+	width: 60%;
+	margin: 2% 20%;
+	color: white;
+	background-color: #39ac39;
+	padding: 2px;
+	border: 1px solid #1f2e2e;
+	border-radius: 2px;
+
+}
+
+#viewSimulation:hover{
+	
+	background-color: #66a3ff;
+}
+
+.box{
+	border: 1px dashed #9900e6;
+	
+
+}
+

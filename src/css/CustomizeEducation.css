@@ -165,13 +165,14 @@ ul li a:hover {
 
 #resumeButton{
 	color: white;
-	background-color: #9999ff;
+	background-color: #39ac39;
 	padding: 2px;
-	border: 1px solid #CDCDCD;
+	border: 1px solid #1f2e2e;
+	border-radius: 2px;
 }
 #resumeButton:hover{
 	
-	background-color: #0000cc;
+	background-color: #66a3ff;
 }
 
 

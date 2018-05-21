@@ -3,7 +3,7 @@
 	<head>
 		<title>Projects</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet"/>
-		<link href="css/Customize.css" rel="stylesheet"/>
+		<link href="css/CustomizeProject.css" rel="stylesheet"/>
 	</head>
 
 	<body class="defaultSpacingRemoval">
@@ -20,10 +20,50 @@
 				</ul>
 			</div>
 		</div>
-		<h3>Projects</h3>
-		<script src="scripts/animate.js"></script>
-		<br>
-		<!--
+		<h3 class="movefromleft">Projects</h3>
+		
+		<div class="col-xs-6 clear">
+			<div class="movefromleft movefromright">
+				<h4 class="box centerText">Computation for an N-Body Particle Simulation using MPI for parallelized computations</h4>
+				<p>&emsp; For my parallel computing class, I built a program that randomly generates light, medium and heavy particles. The program provides each particle with an initial velocity, a mass and an intial position. This is done in a 3 dimensional plane (x, y, and z plane). The particles interact with each other by evaluating Newton's equations of motion for the forces of all other particles that are acting on each individual particles. Using the matrix of force interactions on each particle and Euler's method, I am able to calculate the next velocity step and the next position step in the sequence. Using command line inputs, the user can choose the amount of all 3 types of particles, the time between steps and the number of steps in the program. After each step, a snapshot is taken of the current position of all particles in 2 dimensions (x and y plane). These pistures are then transferred into a video to show the full particle simulation as shown in the video below. This project was done with Matthew Shortt as a 2 person team. We also added MPI for parallelized computations for greater speedups and efficiency.</p>
+
+				<a target="_blank" href="https://github.com/MatthewShortt/N-bodySimulation">
+					<button id="viewSimulation">Click Here to open a link to the Github page for the Particle Simulation Project</button>
+				</a>
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/z0py02AhbkQ?vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="col-xs-6">
+			<div class="movefromleft movefromright">
+				<h4 class="box centerText">This Website</h4>
+				<p>&emsp; I wanted to focus on doing web development. I figured that the techniques and languages utilized in web development would become very useful in the future for job opportunities. This website uses basic web development techniques to summarize my accomplishments, capabilities, and experiences to help a user gain a better perspective of what kind of software engineer I would like to be. I use HTML for the basic website layout. CSS was utilized for customization of each page that is present. Inside the CSS, I use media queries to adjust the elements that exist on the page for a better arrangement and simple user interface. I also utilize JavaScript to add animations and user interactions to made the webpage more user friendly.</p>
+
+				<a target="_blank" href="https://github.com/phillippavlich/My_Website">
+					<button id="viewSimulation">Click Here to open a link to the Github page for my Website</button>
+				</a>
+			</div>
+			
+		</div>
+		<div class="col-xs-6">
+			<div class="movefromleft movefromright">
+				<h4 class="box centerText">Amazon Alexa DeltaHacks 4 Email Distributor </h4>
+				<p>&emsp; </p>
+
+				<a target="_blank" href="https://github.com/phillippavlich/My_Website">
+					<button id="viewSimulation">Click Here to open a link to the Github page for my Website</button>
+				</a>
+			</div>
+		</div>
+		<div class="col-xs-6">
+			
+		</div>
+		<div class="col-xs-6">
+			
+		</div>
+
+
+				<!--
 	<img src="images/image2.jpg" class="testpic"/>
 	<a href="http://canadianshieldcapital.com/contact.html">help from matt</a>
 	<a href="http://erinvarey.ca/"> erin website ideas</a>
@@ -48,7 +88,9 @@
 	<div style="width: 100%;height: 30px;background-color:#CDCDCD;margin:5px 0px"></div>
 	<div style="width: 100%;height: 30px;background-color:#E9E9E9;margin:5px 0px"></div>
 	-->
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/z0py02AhbkQ?vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	
+
+		<script src="scripts/animate.js"></script>
 	</body>
 
 </html>
