@@ -92,9 +92,9 @@ ul li a:hover {
 .boldtext{
 	font-weight:bold;
 }
+
 .movefromleft{
-	margin-left:2%;
-	margin-top: 10%;
+	margin: 10% 0% 0% 2%;
 }
 .movefromright{
 	margin-right:2%;
@@ -157,7 +157,7 @@ ul li a:hover {
 	float: left;
 	border: 5px solid #99D3DF;
 	border-radius: 2%;
-	margin:2% 0% 0% 2%;
+	margin:2% 0% 2% 2%;
 	text-align: center;
 	padding: 10px;
 
