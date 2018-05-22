@@ -164,3 +164,27 @@ ul li a:hover {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
+#ParticleVideo{
+	width: 80%;
+	height: 380px;
+	margin: 0% 10%;
+
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1050px) {
+	#ParticleVideo{
+		height: 200px;
+	} 	
+  
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 500px) {
+	.box{
+		clear: both;
+	}
+    
+}
+
+
+
