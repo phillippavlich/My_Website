@@ -99,4 +99,68 @@ ul li a:hover {
 .aligntext{
 	text-align:center;
 }
+#WorkMap{
+	width: 600px; 
+	height:450px;
+
+}
+
+.topDetail{
+	display: none;
+}
+.bottomDetail{
+	display: inline;
+}
+
+.programImage{
+	
+	width: 96%;
+	margin: 2%;
+	height: 30%;
+	
+	/*
+	width: 200px;
+	height: 150px;
+	margin: 2%;
+	*/
+}
+
+#imageBox{
+		
+
+}	
+
+@media only screen and (min-width: 450px) and (max-width: 1220px) {
+	#WorkMap{
+		width: 400px; 
+		height:250px;
+
+	}		
+  
+}
+@media only screen and (min-width: 200px) and (max-width: 840px) {
+	.topDetail{
+		display: inline;
+		clear: both;
+	}
+	.bottomDetail{
+		display: none;
+	}
+
+	#imageBox{
+		clear: both;
+
+	}		
+  
+}
+
+@media only screen and (min-width: 200px) and (max-width: 450px) {
+	#WorkMap{
+		width: 80%; 
+		height:20%;
+		margin: 2% 10%;
+
+	}		
+  
+}
 

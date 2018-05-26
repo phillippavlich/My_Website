@@ -94,10 +94,11 @@ ul li a:hover {
 }
 
 #pit{
-	float: right;
-	margin: 2%;
+	float: left;
+	margin: 2% 20%;
 	width:20%;
 	height: 20%;
+	/*margin: auto;*/
 	
 }
 .clearboth{
@@ -111,7 +112,101 @@ ul li a:hover {
 	margin-top:2%;
 } 
 
-@media only screen and (min-width: 661px) and (max-width: 915px) {
+#pictureHockey{
+	width: 250px;
+	height:400px;
+	
+	/*margin: 2% 10% 2% 1%;
+	float: right;*/
+	
+}
+
+#pictureDogs{
+	width: 300px;
+	height:200px;
+	
+	margin: 2% 10% 2% 1%;
+}
+
+#pictureWakeboarding{
+	width: 250px;
+	height:350px;
+	
+	margin: 2% 10% 2% 1%;
+}
+
+.clearLeft{
+	clear: left;
+}
+.rightNoClear{
+	float: right;
+	clear: none;
+	margin-right: 4%;
+}
+
+#lastPara{
+	margin-left: 20%;
+	float: left;
+}
+
+@media only screen and (min-width: 920px) and (max-width: 1070px) {
+   	#dogsBox{
+		clear: both;
+	
+	
+	}
+	#pit{
+	float: right;
+	margin: 2% 20%;
+	width:20%;
+	height: 20%;
+	/*margin: auto;*/
+	
+}
+
+@media only screen and (min-width: 920px) and (max-width: 1020px) {
+   	#pictureHockey{
+		width: 150px;
+		height:250px;
+
+	}
+	.rightNoClear{
+		float: right;
+		clear: none;
+		margin-right: 2px;
+	}
+}
+/*
+@media only screen and (min-width: 200px) and (max-width: 920px) {
+	.nextLine{
+   		clear: left;
+   	}
+   	#pictureHockey{
+		width: 150px;
+		height:250px;
+
+	}
+	.rightNoClear{
+		float: left;
+		clear: none;
+		margin-left: 2px;
+	}
+}
+*/
+  
+}
+
+@media only screen and (min-width: 661px) and (max-width: 920px) {
+	#pictureHockey{
+		width: 150px;
+		height:250px;
+
+	}
+	.rightNoClear{
+		float: left;
+		clear: none;
+		margin-left: 2px;
+	}
    	.picabout{
 		width: 300px;
 		height:350px;
@@ -119,6 +214,21 @@ ul li a:hover {
 		margin: 2% 2% 2% 1%;
 	
 	
+	}
+	.clearLeft{
+		clear: none;
+	}
+	#dogsBox{
+		clear: none;
+		float: right;
+	
+	
+	}
+	#pictureDogs{
+		width: 300px;
+		height:200px;
+		
+		margin: 2% 0% 2% 1%;
 	}
   
 }
@@ -153,6 +263,7 @@ ul li a:hover {
 		clear: left;
 	}
 }
+
 
 @media only screen and (max-width: 445px) {
    	.picabout{
