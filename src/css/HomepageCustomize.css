@@ -12,13 +12,7 @@ h3, h5{
     z-index: 1030;
 }
 
-.testing{
-    background-color: white;
-    color: white;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-}
+
 #centralImage{
     width: 30%;
     height: 30%;
@@ -44,62 +38,65 @@ h3, h5{
  #Astronaut{
     width: 20px;
     height: 20px;
+    position: absolute;
+    left: 400px;
+    top: 200px;
  }
 #Earth{
     width: 20px;
     height: 20px;
-    position: fixed;
+    position: absolute;
     left: 300px;
     top: 200px;
 }
 #ManOnMoon{
     width: 20px;
     height: 20px;
-    position: fixed;
+    position: absolute;
     left: 100px;
     top: 500px;
 }
 #Jupiter{
     width: 20px;
     height: 20px;
-    position: fixed;
+    position: absolute;
     left: 200px;
-    bottom: 200px;
+    top: 200px;
  }
 #Mars{
     width: 20px;
     height: 20px;
-    position: fixed;
-    right: 100px;
+    position: absolute;
+    left: 100px;
     top: 300px;
 }
 #Mercury{
     width: 20px;
     height: 20px;
-    position: fixed;
-    right: 100px;
-    bottom: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
 }
 #Saturn{
     width: 20px;
     height: 20px;
-    position: fixed;
-    right: 50px;
-    bottom: 300px;
+    position: absolute;
+    left: 50px;
+    top: 300px;
 }
 #Venus{
     width: 20px;
     height: 20px;
-    position: fixed;
-    bottom: 50px;
+    position: absolute;
+    top: 50px;
     left: 300px;
 }
 #Neptune{
     width: 20px;
     height: 20px;
-    position: fixed;
+    position: absolute;
     top: 20px;
-    right: 70px;
+    left: 70px;
 }
 
 #credit{
@@ -111,6 +108,7 @@ h3, h5{
     width: 100%;
     text-align: center;
 }
+
 
 #AboutLocation{
     position: fixed;
@@ -127,7 +125,7 @@ h3, h5{
 #ProjectsLocation{
     position: fixed;
     top: 50px;
-    right: 50px;
+    right: 250px;
 
 }
 #WorkLocation{
@@ -136,12 +134,48 @@ h3, h5{
     left: 50px;
 
 }
+
 #ContactLocation{
     position: fixed;
     top: 150px;
-    right: 50px;
+    right: 250px;
 
 }
+
+#star1{
+    position: absolute;
+    left: 40px;
+    top: 100px;
+
+}
+
+#star2{
+    position: absolute;
+    top: 350px;
+    left: 170px;
+
+}
+
+#star3{
+    position: absolute;
+    top: 180px;
+    left: 180px;
+
+}
+
+#shuttle1{
+    position: absolute;
+    top: 40px;
+    left: 220px;
+
+}
+#shuttle2{
+    position: absolute;
+    top: 145px;
+    left: 130px;
+
+}
+
 :root {
     --bg: #3C465C;
     --primary: #78FFCD;
@@ -157,17 +191,22 @@ h3, h5{
 
 
 .btn {
+    
     position: absolute;
+
     margin: 0 auto;
+
     width: var(--btn-w);
     color: var(--primary);
     border: .15em solid var(--primary);
+
     border-radius: 5em;
     text-transform: uppercase;
     text-align: center;
     font-size: 1.1em;
     line-height: 2em;
-    cursor: pointer;    
+    cursor: pointer; 
+
 }
 .dot {
     
