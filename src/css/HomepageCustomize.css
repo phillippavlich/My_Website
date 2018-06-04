@@ -419,5 +419,24 @@ h3, h5{
   
 }
 
+@media only screen and (min-height: 750px)  {
+    #centralImage{
+        margin-top: 30%;
+    } 
+    
+
+    
+  
+}
+@media only screen and (min-height: 1000px)  {
+    #centralImage{
+        margin-top: 40%;
+    } 
+    
+
+    
+  
+}
+
 
 
