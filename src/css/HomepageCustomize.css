@@ -310,8 +310,8 @@ h3, h5{
 @media only screen and (min-width: 1200px) {
    
    #centralImage{
-        width: 400px;
-        height: 300px;
+        width: 350px;
+        height: 450px;
         /*display: block;*/
         margin-left: 35%;
         margin-right: 35%;
@@ -421,7 +421,7 @@ h3, h5{
 
 @media only screen and (min-height: 750px)  {
     #centralImage{
-        margin-top: 30%;
+        margin-top: 225px;
     } 
     
 
