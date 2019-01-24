@@ -101,7 +101,7 @@ ul li a:hover {
 	float: center;
 
 }
-#viewSimulation {
+.viewSimulation {
 	width: 60%;
 	margin: 2% 20%;
 	color: white;
