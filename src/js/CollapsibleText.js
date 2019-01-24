@@ -19,12 +19,15 @@ function changeTextSize(x) {
     	var element2 = document.getElementById("fifthBox");
         var element3 = document.getElementById("sixthBox");
 
+        
     	if(element2.classList.contains("clear")){
     		element2.classList.remove("clear");
     	}
+        
     	if(!element.classList.contains("clear")){
     		element.classList.add("clear");
     	}
+
         if(!element3.classList.contains("clear")){
             element3.classList.add("clear");
         }
@@ -37,9 +40,11 @@ function changeTextSize(x) {
     	if(element.classList.contains("clear")){
     		element.classList.remove("clear");
     	}
+        
     	if(!element2.classList.contains("clear")){
     		element2.classList.add("clear");
     	}
+        
         if(element3.classList.contains("clear")){
             element3.classList.remove("clear");
         }
@@ -80,8 +85,8 @@ function changeTextSize(x) {
     }
 }
 
-var x = window.matchMedia("(max-width: 1050px)")
-var y = window.matchMedia("(min-width: 1051px)")
+var x = window.matchMedia("(max-width: 1500px)")
+var y = window.matchMedia("(min-width: 1501px)")
 var xx = window.matchMedia("(max-width: 550px)")
 var yy = window.matchMedia("(min-width: 551px)")
 
